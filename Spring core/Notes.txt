@@ -1,0 +1,5 @@
+Annotations:-
+@Component / @Component("id name")
+@Configuration
+@Primary
+@ComponentScan(basePackages="com.ganesh.SpringTest")
