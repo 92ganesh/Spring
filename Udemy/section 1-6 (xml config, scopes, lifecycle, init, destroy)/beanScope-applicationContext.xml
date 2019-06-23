@@ -14,7 +14,7 @@
     	class="com.luv2code.springdemo.HappyFortuneService">
     </bean>
     
-    
+    <!-- Scope types:- singleton,prototype,request,session, global-session -->
     <bean id="myCoach"
     	class="com.luv2code.springdemo.TrackCoach"
     	scope="prototype">
