@@ -1,0 +1,27 @@
+Note:-
+- bean id are in lower case even in annotations config Class name is converted to lower case 
+
+
+Spring core Annotations:-
+@Component / @Component("id name")
+@Autowired
+@Configuration
+@ComponentScan(basePackages="com.ganesh.SpringTest")
+@Qualifier("class name in lower case")  //@Qualifer hav higer priority than @Primary
+@Primary
+@RequestMapping("/urlpath")
+@RequestParam("Name")  // method params. see sec11-mvc forms
+@ModelAttribute("customer") 	// bind form attributes to var(see processForm() in form validation)
+
+@Valid 			// form validation
+Validation tags - @NotNull, Size, Min, Max, Pattern, Future, Past etc
+
+
+
+
+
+
+
+
+
+
