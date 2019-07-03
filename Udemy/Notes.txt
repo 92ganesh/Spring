@@ -17,8 +17,11 @@ Spring core Annotations:-
 Validation tags - @NotNull, Size, Min, Max, Pattern, Future, Past etc
 
 
-
-
+Hiberanate
+@Entity
+@Table(name="Student")
+@Id
+@Column(name="id")
 
 
 
